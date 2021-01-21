@@ -12,7 +12,7 @@ const ToggleContainer = styled.button`
   background: ${({ theme }) => theme.gradient};
   width: 8rem;
   height: 3.5rem;
-  margin: 0 auto;
+  margin: 0;
   border-radius: 30px;
   border: 2px solid ${({ theme }) => theme.toggleBorder};
   font-size: 0.5rem;
@@ -39,7 +39,7 @@ const Toggle = ({ theme, toggleTheme }) => {
   return (
     <ToggleContainer lightTheme={isLight} onClick={toggleTheme} id="toggle-container" >
       <Brightness7Icon style={{ color: "yellow" }} />
-      <NightsStayIcon style={{ color: "grey" }}/>
+      <NightsStayIcon style={{ color: "grey" }} />
     </ToggleContainer>
   );
 };

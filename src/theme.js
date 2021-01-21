@@ -1,5 +1,3 @@
-const nightBackground = "https://image.freepik.com/free-vector/sky-sea-starry-night-background_105940-108.jpg"
-
 export const lightTheme = {
   body: 'white',
   text: 'black',

@@ -21,9 +21,34 @@ function App() {
       <ThemeProvider theme={themeMode}>
         <>
           <GlobalStyles />
-          <div style={{ fontSize: "20px" }}>{theme === 'light' ? 'Light theme' : 'Night theme'}!</div>
-          <br></br>
-          <Toggle theme={theme} toggleTheme={toggleTheme} />
+          <div id="mode-container">
+            <h3>{theme === 'light' ? 'Light theme' : 'Night theme'}!</h3>
+            <br></br>
+            <Toggle theme={theme} toggleTheme={toggleTheme} />
+          </div>
+          <div style={{ height: "150px" }}></div>
+          <main className="main">
+            <section className="posts">
+              <article className="post">
+                <h4 className="post-title">
+                  Post I
+                </h4>
+                <p className="post-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veniam alias ea vitae dolores in modi perspiciatis, sequi doloremque similique.
+                </p>
+              </article>
+              <hr className="divider"></hr>
+              <article className="post">
+                <h4 className="post-title">
+                  Post II
+                </h4>
+                <p className="post-text">
+                  Obcaecati et dignissimos placeat blanditiis quaerat inventore iste aperiam dolor voluptatem nobis, neque culpa in, harum corporis porro eaque numquam.
+                </p>
+              </article>
+              <hr className="divider"></hr>
+            </section>
+          </main>
         </>
       </ThemeProvider>
     </div>
