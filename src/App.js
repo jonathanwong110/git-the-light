@@ -26,7 +26,8 @@ function App() {
             <br></br>
             <Toggle theme={theme} toggleTheme={toggleTheme} />
           </div>
-          <div style={{ height: "150px" }}></div>
+          <br></br>
+          <div id="mode-container-divider"></div>
           <main className="main">
             <section className="posts">
               <article className="post">
@@ -37,7 +38,7 @@ function App() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veniam alias ea vitae dolores in modi perspiciatis, sequi doloremque similique.
                 </p>
               </article>
-              <hr className="divider"></hr>
+              <hr className="post-divider"></hr>
               <article className="post">
                 <h4 className="post-title">
                   Post II
@@ -46,7 +47,7 @@ function App() {
                   Obcaecati et dignissimos placeat blanditiis quaerat inventore iste aperiam dolor voluptatem nobis, neque culpa in, harum corporis porro eaque numquam.
                 </p>
               </article>
-              <hr className="divider"></hr>
+              <hr className="post-divider"></hr>
             </section>
           </main>
         </>

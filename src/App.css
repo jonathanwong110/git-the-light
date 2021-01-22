@@ -10,8 +10,32 @@
 
 #toggle-container {
   outline: none;
-  float: right;
 }
+
+#sun-icon {
+  color: #ffd712;
+}
+
+@media (max-width: 379px) {
+  #mode-container-divider {
+    height: 200px;
+    width: 0;
+  }
+  #toggle-container {
+    float: left;
+  }
+}
+
+@media (min-width: 380px) {
+  #mode-container-divider {
+    height: 150px;
+    width: 0;
+  }
+  #toggle-container {
+    float: right;
+  }
+}
+
 
 .main {
   margin-left: 100px;
@@ -29,6 +53,6 @@
   text-align: left;
 }
 
-.divider {
+.post-divider {
   border: 1px solid
 }

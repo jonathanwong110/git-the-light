@@ -38,7 +38,7 @@ const Toggle = ({ theme, toggleTheme }) => {
 
   return (
     <ToggleContainer lightTheme={isLight} onClick={toggleTheme} id="toggle-container" >
-      <Brightness7Icon style={{ color: "yellow" }} />
+      <Brightness7Icon id="sun-icon" />
       <NightsStayIcon style={{ color: "grey" }} />
     </ToggleContainer>
   );
