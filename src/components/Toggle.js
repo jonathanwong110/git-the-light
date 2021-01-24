@@ -15,6 +15,7 @@ const ToggleContainer = styled.button`
   margin: 0;
   border-radius: 30px;
   border: 2px solid ${({ theme }) => theme.toggleBorder};
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   font-size: 0.5rem;
   padding: 0.5rem;
   overflow: hidden;

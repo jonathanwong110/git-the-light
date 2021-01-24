@@ -4,7 +4,6 @@ import { ThemeProvider } from 'styled-components';
 import { nightMode } from './nightMode';
 import { lightTheme, nightTheme } from './theme';
 import { GlobalStyles } from './global';
-
 import Toggle from './components/Toggle.js';
 
 function App() {
